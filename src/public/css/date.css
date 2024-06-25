@@ -1,0 +1,205 @@
+
+
+.display_date_items{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.display_date{
+    padding:0 4rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.calendar_items{
+    position: absolute;
+    top: 14.5rem;
+left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 30rem;
+
+}
+
+.calendar_form{
+    width: 20rem;
+}
+.search_button{
+vertical-align: bottom;
+    height: 3rem;
+}
+
+.select_display_date{
+    height: 3rem;
+    border: 1.2px solid blue;
+    border-radius: 2px;
+}
+
+.before_day_button{
+    background-color: white;
+    border: 1.2px solid blue;
+    border-radius: 1.5px;
+    color: blue;
+    height: 3rem;
+    width: 4rem;
+    font-size: 2.5rem;
+}
+
+.next_day_button {
+    background-color: white;
+    border: 1.2px solid blue;
+    border-radius: 2px;
+    color: blue;
+    height: 3rem;
+    width: 4rem;
+    font-size: 2.5rem;
+}
+
+.date-list__table{
+    margin:0 auto;
+    margin-top: 4rem;
+}
+
+th:first-child {
+    padding: 2.5rem 0rem 2.5rem 6rem;
+    text-align: left;
+    width: 20rem;
+}
+
+th:last-child {
+width: 20rem;
+    padding: 2.5rem 4rem 2.5rem 0rem;
+}
+
+.date-list__header{
+    border-top: 1.3px solid gray;
+    font-size: 1.8rem;
+    padding: 2.5rem 2rem 2.5rem 2rem;
+    display: inline-block;
+    width: 20rem;
+
+}
+
+
+
+td:first-child{
+    padding: 2.5rem 0rem 2.5rem 6rem;
+    text-align: left;
+    width: 20rem;
+}
+
+td:last-child {
+width: 20rem;
+padding: 2.5rem 4rem 2.5rem 0rem;
+}
+
+.date-list__data{
+    border-top: 1.3px solid gray;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 2.5rem 2rem 2.5rem 2rem;
+display: inline-block;
+text-align: center;
+width: 20rem;
+height: 8rem;
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+
+.page-item a {
+    display: inline-block;
+    color: #1175E1;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #e6e6e6;
+
+}
+
+.page-item.disabled {
+    border: 1px solid #e6e6e6;
+}
+
+.pagination li:first-of-type {
+    border-radius: 5px 0 0 5px;
+}
+
+
+.page-item.active {
+    background-color: #1175E1;
+    font-size: 15px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.page-item a:hover {
+    background-color: #69a2e0;
+    color: white;
+}
+
+.page-item.disabled {
+    pointer-events: none;
+    background-color: white;
+    font-size: 15px;
+    color: #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.page-item.disabled a:hover {
+    background-color: initial;
+    color: #ccc;
+}
+
+.page-item-last a {
+    display: inline-block;
+    color: #1175E1;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    border-radius: 0 5px 5px 0;
+}
+
+
+.page-item-last a:hover {
+    background-color: #69a2e0;
+    color: white;
+}
+
+.page-item-last.disabled {
+    pointer-events: none;
+    background-color: white;
+    font-size: 15px;
+    color: #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.page-item-last.disabled a:hover {
+    background-color: initial;
+    color: #ccc;
+}
+

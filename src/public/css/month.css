@@ -1,0 +1,58 @@
+.display_name{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.display_month_items{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.display_month {
+    padding: 0 4rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.before_month_button {
+    background-color: white;
+        border: 1.2px solid blue;
+        border-radius: 2px;
+        color: blue;
+        height: 3rem;
+        width: 4rem;
+        font-size: 2.5rem;
+}
+
+.next_month_button {
+    background-color: white;
+    border: 1.2px solid blue;
+    border-radius: 2px;
+    color: blue;
+    height: 3rem;
+    width: 4rem;
+    font-size: 2.5rem;
+}
+
+.month-list__table{
+    margin: 2rem auto 0;
+}
+
+
+.month-list__header{
+    padding: 0 3rem;
+    font-size: 1.5rem;
+}
+
+.month-list__data{
+    padding:0.5rem 3rem 0.5rem 3rem;
+    font-size: 1.5rem;
+    border-top: 1px solid gray;
+
+}
+
+tr:last-child td{
+    padding-bottom: 2rem;
+}

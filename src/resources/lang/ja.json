@@ -1,0 +1,8 @@
+{
+    "Hello!": "こんにちは！勤怠管理アプリAtte（アット）です。",
+    "Verify Email Address": "メールアドレスの認証",
+    "Please click the button below to verify your email address.": "以下のボタンをクリックしてメールアドレスを認証してください。",
+    "If you did not create an account, no further action is required.": "このメールの内容に覚えがない場合は、このまま破棄してください。",
+    "Regards": "どうぞよろしくお願いいたします",
+    "If you're having trouble clicking the \":actionText\" button, copy and paste the URL below\ninto your web browser:": "もし \":actionText\" ボタンがクリックできない場合は、以下に表示されているURLを直接ブラウザにコピー&ペーストしてください。:"
+}

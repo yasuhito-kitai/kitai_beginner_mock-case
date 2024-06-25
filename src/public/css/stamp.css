@@ -1,0 +1,40 @@
+
+
+.user-message{
+    text-align: center;
+    margin-top: 5.2rem;
+    margin-bottom: 5.2rem;
+    font-size: 2.3rem;
+}
+
+.stamping-btn__group{
+    display: grid;
+    grid-template-rows: 24.8rem 24.8rem;
+    grid-template-columns: 55rem 55rem;
+    justify-content: center;
+
+}
+
+.stamping-btn__item {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+
+}
+
+.stamping-btn__btn{
+    height: 20rem;
+    width: 50rem;
+    display: block;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+
+}
+.stamping-btn__btn:disabled {
+    color: #e6e6e6;
+    cursor: not-allowed;
+}

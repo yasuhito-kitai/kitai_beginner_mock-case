@@ -1,0 +1,146 @@
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+text-align: left;
+padding: 3rem 0 2rem 0;
+}
+
+.search-form{
+    display: flex;
+text-align: left;
+padding-bottom: 3rem;
+}
+
+.search-form__item-input {
+    height: 3rem;
+    width: 20rem;
+    font-size: 2rem;
+}
+
+.search-form__button-submit{
+    height: 3rem;
+}
+
+.users-list__table {
+    margin: 0 auto;
+}
+
+.users-list__row{
+    border-bottom: 1px solid gray;
+}
+
+.users-list__header{
+    font-size: 1.8rem;
+    padding-right:15rem;
+    padding-bottom: 1rem;
+}
+
+th:first-child{
+    padding-right:7rem;
+}
+
+.users-list__data{
+    font-size: 1.8rem;
+    padding: 1rem 0 1rem 0;
+}
+
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.page-item a {
+    display: inline-block;
+    color: #1175E1;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #e6e6e6;
+
+}
+
+.page-item.disabled {
+    border: 1px solid #e6e6e6;
+}
+
+.pagination li:first-of-type {
+    border-radius: 5px 0 0 5px;
+}
+
+
+.page-item.active {
+    background-color: #1175E1;
+    font-size: 15px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.page-item a:hover {
+    background-color: #69a2e0;
+    color: white;
+}
+
+.page-item.disabled {
+    pointer-events: none;
+    background-color: white;
+    font-size: 15px;
+    color: #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.page-item.disabled a:hover {
+    background-color: initial;
+    color: #ccc;
+}
+
+.page-item-last a {
+    display: inline-block;
+    color: #1175E1;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    border-radius: 0 5px 5px 0;
+}
+
+
+.page-item-last a:hover {
+    background-color: #69a2e0;
+    color: white;
+}
+
+.page-item-last.disabled {
+    pointer-events: none;
+    background-color: white;
+    font-size: 15px;
+    color: #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.page-item-last.disabled a:hover {
+    background-color: initial;
+    color: #ccc;
+}

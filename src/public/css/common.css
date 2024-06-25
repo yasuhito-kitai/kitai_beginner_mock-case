@@ -1,0 +1,140 @@
+html {
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    flex: 1;
+    background-color: #efefef;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 9rem;
+    align-items: center;
+
+}
+
+
+.logo__text{
+    font-size: 3.4rem;
+    font-weight: bold;
+    margin-left: 3.6rem;
+    
+}
+
+.menu {
+    display: flex;
+align-items: center;
+}
+
+.menu-text {
+    font-size: 1.7rem;
+    margin-right: 6rem;
+    font-weight: bold;
+    
+}
+
+.menu-text a{
+    color: black;
+}
+
+.logout{
+    border: none;
+    background-color: white;
+    font-size:1.5rem ;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section-title{
+    font-size:2.5rem;
+}
+.auth-form {
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.auth-form__group {
+    margin-top: 3rem;
+}
+
+.auth-form__input {
+    height: 5rem;
+    width: 40rem;
+    border: 0.25rem gray solid;
+    background-color: #efefef;
+    border-radius: 0.5rem;
+    margin-top: 1.9rem;
+    font-size: 2.5rem;
+    padding-left: 1rem;
+}
+
+
+
+
+.auth-form__btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    height: 5rem;
+    width: 40rem;
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+}
+input::placeholder {
+    color: gray;
+    font-size: 65%;
+    font-weight: bold;
+    padding-left: 0.7rem;
+}
+
+.error-message {
+
+    font-size: 1.5rem;
+    color: #FA5C65;
+    margin-top: 0.2rem;
+margin-bottom: 0;
+}
+
+.guidance {
+    text-align: center;
+}
+.guidance-text{
+    font-size:1.5rem;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 0;
+}
+
+.guidance-link{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: blue;
+
+}
+
+.copyright{
+    text-align: center;
+    position: sticky;
+    height: 3rem;
+}
+
+.copyright__text{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-top: 0.4rem;
+}
+
+
